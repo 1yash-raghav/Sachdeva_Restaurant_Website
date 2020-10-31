@@ -1,7 +1,7 @@
-.jumbotron-style{
-    margin-top: 5.9%;
+.jumbotron{
+    margin-top: 2.5px;
     padding:20px 20px 20px 20px;
-    background: #342564 ;
+    background: #3d3c33 ;
     color:floralwhite;
 }
 .navbar-brand {
@@ -36,6 +36,9 @@
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 12px 6px -6px #999;
+    padding: 10;
+    border: 1px solid white;
+    border-radius: 50px; 
 }
 .nav-item{
     padding:20px 20px 20px 20px;
@@ -45,4 +48,26 @@
 }
 .btn{
     padding:10px;
+}
+.footer{
+    background:#ffbb33;
+    justify-content:center;
+}
+.copyright{
+    padding: 5px;
+    align-items:center;
+}
+.customers{
+    padding: 10px;
+}
+.card{
+    padding: 7px;
+    box-shadow: 0 4px 8px 0 rgba(36, 37, 23, 0.2);
+    border-radius: 5px;
+}
+.jumbodiv{
+    border-right: 1px solid #ffffff;
+}
+.quote{
+    padding: 20px;
 }
